@@ -10,19 +10,26 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/lightbox-plus-jquery.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto menu-items">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about-the-film.html">About the Film</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="photo-gallery.html">Photo Gallery</a>
                 </li>
                 <li class="nav-item">
@@ -34,39 +41,127 @@
             </ul>
         </div>
     </nav>
-   
-    <div class="section">
-        <div id="aboutthefilm">
-            <h3>Photo Gallery</h3>
-            <h4>Coming Soon</h4>
-            <img id="aboutpic" src="assets/images/refugeecamp-temp.jpg">
+                
+
+    <div class="section-photos">
+        <div class="options">
+            <ul>
+                <li class="categories active" id="cat1">
+                    <a href="#africanLife" id="alPhotos">African Lifestyle Photos</a>
+                </li>
+                <li class="categories" id="cat2">
+                    <a href="#bts" id="btsPhotos">Behind the Scenes Photos</a>
+                </li>
+                <li class="categories" id="cat3">
+                    <a href="#refugeeLife" id="rlPhotos">Refugee Lifestyle Photos</a>
+                </li>
+            </ul>
+        </div>
+        <div class="gallery">
+            <div id="africanLife">
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_01.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb01.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_02.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb02.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_03.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb03.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_04.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb04.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_05.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb05.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_06.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb06.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_07.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb07.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_08.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb08.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_09.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb09.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_10.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb10.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_11.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb11.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_12.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb12.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_13.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb13.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_14.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb14.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_15.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb15.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_16.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb16.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_17.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb17.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_18.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb18.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_19.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb19.jpg"></a>
+                <a href="assets/images/Photo Gallery/Africa_Lifestyle/Africa_Lifestyle_20.jpg" data-lightbox="gallery1"><img src="assets/images/Photo Gallery/Africa_Lifestyle/thumbnails/Africa_Lifestyle_thumb20.jpg"></a>
+            </div>
+            <div id="bts">
+                <a href="assets/images/Photo Gallery/BTS/BTS_01.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb01.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_02.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb02.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_03.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb03.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_04.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb04.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_05.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb05.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_06.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb06.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_07.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb07.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_08.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb08.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_09.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb09.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_10.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb10.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_11.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb11.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_12.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb12.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_13.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb13.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_14.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb14.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_15.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb15.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_16.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb16.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_17.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb17.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_18.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb18.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_19.jpg" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb19.jpg"></a>
+                <a href="assets/images/Photo Gallery/BTS/BTS_20.JPG" data-lightbox="gallery2"><img src="assets/images/Photo Gallery/BTS/thumbnails/BTS_thumb20.jpg"></a>
+            </div>
+            <div id="refugeeLife">
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_01.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb01.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_02.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb02.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_03.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb03.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_04.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb04.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_05.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb05.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_06.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb06.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_07.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb07.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_08.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb08.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_09.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb09.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_10.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb10.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_11.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb11.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_12.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb12.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_13.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb13.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_14.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb14.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_15.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb15.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_16.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb16.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_17.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb17.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_18.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb18.jpg"></a>
+                <a href="assets/images/Photo Gallery/Refugee_Life/Refugee_Life_19.jpg" data-lightbox="gallery3"><img src="assets/images/Photo Gallery/Refugee_Life/thumbnails/Refugee_Life_thumb19.jpg"></a>
+            </div>
         </div>
     </div>
 
-    <footer class="page-footer font-small stylish-color-dark pt-4 ">
-        <!-- Social buttons -->
-        <ul class="list-unstyled list-inline text-center social-icons">
-            <li class="list-inline-item">
-                <a href=# class="btn-floating btn-fb mx-1">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href=# class="btn-floating btn-tw mx-1">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href=# class="btn-floating btn-dribbble mx-1">
-                    <i class="fab fa-twitter"> </i>
-                </a>
-            </li>
-        </ul>
-    
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3 ">© 2019 Copyright Stephanie Neumen
+    <footer class="page-footer font-small stylish-color-dark">
+                <!-- Copyright -->
+        <div class="footer-copyright text-center">© 2019 Copyright Stephanie Neumen
         </div>
     </footer>
+
+    
+    <script>
+        $(document).ready(function() {
+            $("#africanLife").show()
+            $("#bts").hide()
+            $("#refugeeLife").hide()
+        });
+
+        $("#alPhotos").on("click", function() {
+            $("#africanLife").show()
+            $("#bts").hide()
+            $("#refugeeLife").hide()
+            // $("#cat1").addClass("active")
+        })
+        $("#btsPhotos").on("click", function() {
+            $("#bts").show()
+            $("#africanLife").hide()
+            $("#refugeeLife").hide()
+            // $("#cat2").addClass("active")
+        })
+        $("#rlPhotos").on("click", function() {
+            $("#refugeeLife").show()
+            $("#africanLife").hide()
+            $("#bts").hide()
+            // $("#cat3").addClass("active")
+        })
+        $(".options li a").click(function() {
+            $(this).parent().addClass("active").siblings().removeClass("active");
+        });
+    </script>
     
 
    
