@@ -164,6 +164,7 @@ footer {
 
 .strong {
     font-weight: bold;
+    font-style: italic;
 }
 
 /********************************* Photo Gallery Styling *****************************/
@@ -193,7 +194,7 @@ footer {
     padding-top: 8px;
 }
 
-a#rlPhotos, a#btsPhotos, a#alPhotos, a#hocwLink, #unhrcLink {
+a#rlPhotos, a#btsPhotos, a#alPhotos {
     color: #3b4047;
     font-size: 22px;
 }
@@ -201,6 +202,10 @@ a#rlPhotos, a#btsPhotos, a#alPhotos, a#hocwLink, #unhrcLink {
 #hocwLink, #unhrcLink {
     text-decoration: underline;
     display: block;
+    color: #2f3399;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 24px;
 }
 
 .categories.active {
@@ -219,7 +224,6 @@ a#rlPhotos, a#btsPhotos, a#alPhotos, a#hocwLink, #unhrcLink {
 .gallery img {
     max-width: 230px;
     padding: 5px;
-    filter: grayscale(75%);
     max-height: 175px;
     transition: transform .2s;
 }
